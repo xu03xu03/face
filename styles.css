@@ -1,0 +1,64 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #FFE953;
+        height: 80px; /* 設定 header 的高度 */
+        color: #424242;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center; /* 將大標題置中 */
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .logo img {
+        max-width: 200px; /* 調整最大寬度 */
+        width: auto; /* 讓高度自動調整，保持比例 */
+        height: auto; /* 讓高度自動調整，保持比例 */
+    }
+    
+    nav {
+        float: right; /* 將選單浮動到右邊 */
+        
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+        font-weight: bold;
+    }
+    
+    nav ul li a {
+        color: #424242;
+        text-decoration: none;
+    }
+    
+    main {
+        padding: 2rem;
+    }
+    
+    section {
+        margin-bottom: 2rem;
+    }
+    
+    footer {
+        background-color: #424242;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+</body>
+</html>
